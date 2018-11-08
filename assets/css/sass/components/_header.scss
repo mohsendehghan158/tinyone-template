@@ -1,0 +1,73 @@
+header {
+  background-color: #fcdb00;
+
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  .navbar {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navbar-menu {
+
+    }
+    .navbar-social {
+      justify-content: space-evenly;
+      i {
+        margin: 0 2px;
+      }
+    }
+  }
+  .slider {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    .slideshow-container {
+      position: relative;
+      background: transparent;
+      .mySlides {
+        display: none;
+        padding: 80px;
+        text-align: center;
+      }
+    }
+    .dot-container {
+      text-align: center;
+      padding: 20px;
+      .dot {
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        margin: 0 2px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        &:hover, .active {
+          background-color: #717171;
+        }
+      }
+    }
+    button{
+      cursor: pointer;
+      padding: 10px 30px;
+      background: transparent;
+      border: 3px solid black;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 3px;
+      margin:20px;
+      &:hover{
+        background: black;
+        color:white;
+        transition: background-color ease 0.5s;
+      }
+    }
+  }
+}

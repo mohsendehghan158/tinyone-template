@@ -1,0 +1,28 @@
+.features-title {
+  margin-top: 60px;
+  p {
+    text-align: center;
+    margin: 20px;
+  }
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  .feature-section {
+    margin: 10px 40px;
+    p {
+      font-size: 14px;
+    }
+  }
+  img {
+  }
+  .features-left, .features-right, .features-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}

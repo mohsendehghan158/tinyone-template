@@ -1,0 +1,45 @@
+footer {
+  background-color: #010101;
+  padding-top: 40px;
+  .footer-form-description {
+    h2 {
+      color: #fcdb00;
+      text-align: center;
+    }
+    p {
+      color: #676767;
+      text-align: center;
+    }
+  }
+  .footer-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    input {
+      margin: 20px;
+      width: 50%;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-family: 'Poppins', sans-serif;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #fcdb00;
+      border-radius: 10px;
+      border: none;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+    }
+  }
+  .footer-info {
+    padding: 60px 0 120px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    li{
+      list-style: none;
+    }
+  }
+}
