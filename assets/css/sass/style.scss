@@ -7,14 +7,35 @@ body, html {
   height: 100%;
   font-family: 'Poppins', sans-serif;
 }
-h2{
-  margin:20px;
+
+h2 {
+  margin: 20px;
   text-align: center;
 }
 
 .container {
   width: 990px;
   margin: 0 auto;
+}
+
+.tooltip {
+position: relative;
+  .tooltip-text {
+    background-color: black;
+    color:white;
+    padding: 5px 10px;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    top:200%;
+    left:-125%;
+  }
+  &:hover .tooltip-text{
+    opacity: 1;
+    transition: opacity 1s;
+  }
 }
 
 @import "components/header";

@@ -14,6 +14,23 @@ h2 {
   width: 990px;
   margin: 0 auto; }
 
+.tooltip {
+  position: relative; }
+  .tooltip .tooltip-text {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    top: 200%;
+    left: -125%; }
+  .tooltip:hover .tooltip-text {
+    opacity: 1;
+    transition: opacity 1s; }
+
 header {
   background-color: #fcdb00;
   padding-top: 50px;
