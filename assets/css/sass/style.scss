@@ -37,6 +37,9 @@ position: relative;
     transition: opacity 1s;
   }
 }
+a{
+  color:black;
+}
 
 @import "components/header";
 @import "components/features";

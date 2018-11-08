@@ -38,8 +38,16 @@ footer {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
-    li{
+    li {
       list-style: none;
+    }
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      color: #FCDB00;
+      transition: color 0.3s;
     }
   }
 }
