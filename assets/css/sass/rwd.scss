@@ -1,0 +1,20 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .features-center {
+    display: none;
+  }
+  .features, .footer-info {
+    flex-direction: column;
+  }
+  .footer-info div, .footer-info ul {
+    border-top: 1px solid white;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+}

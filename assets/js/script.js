@@ -28,3 +28,10 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+document.getElementById('menu-icon').addEventListener('mouseenter', function (event) {
+    event.target.className = 'fas fa-times fa-lg';
+});
+document.getElementById('menu-icon').addEventListener('mouseout', function (event) {
+    event.target.className = 'fa fa-bars fa-lg';
+});
